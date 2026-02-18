@@ -1,0 +1,13 @@
+---
+description: React component patterns and conventions
+globs: "**/*.tsx"
+alwaysApply: false
+---
+
+# React Patterns
+
+- Use functional components with TypeScript
+- Prefer named exports for non-page components; default export only for pages/routes
+- Define explicit prop types via interfaces
+- Extract reusable logic into custom hooks
+- Colocate component-specific styles with components

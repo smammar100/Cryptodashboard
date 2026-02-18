@@ -1,0 +1,13 @@
+---
+description: shadcn/ui component usage guidelines
+globs: "**/*.tsx"
+alwaysApply: false
+---
+
+# shadcn/ui Usage
+
+- Prefer shadcn/ui primitives: Button, Badge, Card, Table, Select, DropdownMenu over custom markup
+- Use Button variants: default (primary), outline, ghost for different contexts
+- Use Card, CardHeader, CardContent, CardFooter for card layouts
+- Use Table components for tabular data with proper semantics
+- Use Select for dropdowns; DropdownMenu for action menus

@@ -1,0 +1,12 @@
+---
+description: Tailwind CSS conventions and design token usage
+globs: "**/*.{tsx,css}"
+alwaysApply: false
+---
+
+# Tailwind Conventions
+
+- Use design tokens from tailwind.config (colors, radius, shadows) instead of arbitrary values where tokens exist
+- Prefer semantic tokens: `bg-primary`, `text-muted-foreground` over raw hex
+- Use `cn()` from lib/utils for conditional class merging
+- Avoid inline arbitrary values like `w-[677px]` when a token or standard utility exists

@@ -1,0 +1,14 @@
+---
+description: Accessibility requirements for UI components
+globs: "**/*.tsx"
+alwaysApply: false
+---
+
+# Accessibility
+
+- Add aria-label to icon-only buttons
+- Ensure visible focus rings (ring-2 ring-offset-2) on interactive elements
+- Provide descriptive alt text for meaningful images
+- Use semantic HTML (button, nav, main, etc.)
+- Maintain 4.5:1 color contrast for text
+- Respect prefers-reduced-motion for animations
